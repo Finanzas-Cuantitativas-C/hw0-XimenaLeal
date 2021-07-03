@@ -25,7 +25,7 @@ import requests
 
 
 #Escribe aqui tu numero de cuenta. Si tienes dudas consulta el README.md
-numeroDeCuenta = ''
+numeroDeCuenta = '315293230'
 
 
 '''
@@ -58,7 +58,7 @@ def tarea0():
     # median rounded to 4 decimals
     # var_95 rounded to 6 decimals
     # is_normal 
-    return 
+    return round(dm.median,4), round(dm.var_95,6), dm.is_normal
 
 
 #NO MODIFICAR
